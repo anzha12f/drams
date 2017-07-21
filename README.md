@@ -10,10 +10,12 @@ Drams is a Drams Management system, it has simple CRUD functionality, main focus
 ## Dram Main Menu 
 
 Main menu has two options, 	`Home` and `Add Dram`. You can add new Dram information and save it to Database  
+<img src="https://user-images.githubusercontent.com/8953275/28467420-2ed9812e-6e73-11e7-940b-7977ce8c9837.JPG" width="15%"></img>, <img src="https://user-images.githubusercontent.com/8953275/28467825-7bd9cd02-6e74-11e7-92e0-d68b3c6eb932.JPG" width="15%"></img> 
 
 ## Dram Record Actions
 
 Dram record display has 3 actions button, `Details`, `edit` and `delete` which gives full CRUD functionality.
+<img src="https://user-images.githubusercontent.com/8953275/28468012-0cfcbd44-6e75-11e7-822e-45fe1eafe167.JPG" width="15%">
 
 ## Dram Management Architecture
 
