@@ -1,8 +1,16 @@
 table {
     background-size: 1250px auto;
     background-repeat: no-repeat;
-     background-image: url("https://thumb7.shutterstock.com/display_pic_with_logo/2892082/612421697/stock-photo-two-whiskey-on-ice-drinks-on-seaside-table-at-sunset-612421697.jpg");
+    background-image: url("https://thumb7.shutterstock.com/display_pic_with_logo/2892082/612421697/stock-photo-two-whiskey-on-ice-drinks-on-seaside-table-at-sunset-612421697.jpg");
+    position: relative;
+    margin: 0px auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    
 }
+
 thead {
 	background-color: #242d30;
 	color: #fff;

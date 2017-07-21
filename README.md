@@ -5,11 +5,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## About Drams
 
 Drams is a Drams Management system, it has simple CRUD functionality, main focus on `Css Styling`. It records your favourite Whisky information like `name`, `Image`, `Date Added`, `Tasting Notes`, `Rating` and `price`.
-![Image of Drams01] (https://github.com/anzha12f/drams/Drams01.jpeg)
+![Drams01](Drams01.jpg)
 
 ## Dram Main Menu 
 
 Main menu has two options, 	`Home` and `Add Dram`. You can add new Dram information and save it to Database  
+
+## Dram Record Actions
+
+Dram record display has 3 actions button, `Details`, `edit` and `delete` which gives full CRUD functionality.
+
+## Dram Management Architecture
+
+Basic structure of Client side is based on Angular 2 which calls Rest web services for CRUD operation. Http Middle with Node backend and MongoDb as Database.
 
 ## Development server
 
