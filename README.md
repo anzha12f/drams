@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## About Drams
 
 Drams is a Drams Management system, it has simple CRUD functionality, main focus on `Css Styling`. It records your favourite Whisky information like `name`, `Image`, `Date Added`, `Tasting Notes`, `Rating` and `price`.
-![Drams01](Drams01.jpg)
+[<img src="https://user-images.githubusercontent.com/8953275/28466867-28f37a6e-6e71-11e7-8cfe-af593d00ad62.JPG" width="15%"></img>] 
 
 ## Dram Main Menu 
 
