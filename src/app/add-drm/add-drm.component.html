@@ -1,0 +1,58 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Dram Entry Form : You can add a dram detail information into this Apps.</div>
+  <div class="panel-body">
+  <form class="form-horizontal" (submit)="addDram()">
+  <div class="form-group">
+    <label for="drm_id" class="col-sm-2 control-label">Dram Id : </label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" [(ngModel)]="model.dramId" name="drmId" >
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">Name : </label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" [(ngModel)]="model.name" name="name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="picture" class="col-sm-2 control-label">Picture : </label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" [(ngModel)]="model.picture" name="picture">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="dateAdd" class="col-sm-2 control-label">Date Added : </label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" [(ngModel)]="model.dateAdd" name="dateAdd">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="tastingNote" class="col-sm-2 control-label">Tasting Notes : </label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" [(ngModel)]="model.tastingNote" name="tastingNote">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="rating" class="col-sm-2 control-label">Rating : </label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" [(ngModel)]="model.rating" name="rating">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="price" class="col-sm-2 control-label">Price : </label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" [(ngModel)]="model.price" name="price">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-8">
+      <button type="submit" class="btn btn-success">Save</button>
+       <a class="btn btn-info" (click)="goBack()">Cancel</a>
+    </div>
+   
+  </div>
+</form>
+
+  </div>
+</div>

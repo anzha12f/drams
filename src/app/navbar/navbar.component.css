@@ -1,0 +1,16 @@
+.navbar {
+    position: relative;
+    background-color: #E82534;
+}
+.navbar-brand {
+  padding: 5px 0 10px;
+  text-align: left;
+  text-shadow: 1px 1px 2px #76141D;
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: normal;
+  background-color: #E72635;
+  color: #fff;
+  
+}

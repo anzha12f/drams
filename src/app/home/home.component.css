@@ -1,0 +1,51 @@
+table {
+    background-size: 1250px auto;
+    background-repeat: no-repeat;
+     background-image: url("https://thumb7.shutterstock.com/display_pic_with_logo/2892082/612421697/stock-photo-two-whiskey-on-ice-drinks-on-seaside-table-at-sunset-612421697.jpg");
+}
+thead {
+	background-color: #242d30;
+	color: #fff;
+	font-size: 1.25em;
+	margin: 0px;
+	
+}
+.table td{
+    border: red solid 2px !important;
+}
+tbody {
+  padding: 0px;	
+  margin: 0px;
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  
+ }
+ tbody.p{
+ 	font-size: 1.25em;
+ }
+img {
+	height: 75px;
+	background-color: transparent;
+}
+.ab{
+	background-color: #c4c135;
+}
+.ac{
+	background-color: #35bdc4;
+}
+.star {
+      position: relative;  
+      display: inline-block;
+      font-size: 3rem;
+      color: #d3d3d3;
+    }
+    .full {
+      color: red;
+    }
+    .half {
+      position: absolute;
+      display: inline-block;
+      overflow: hidden;
+      color: red;
+    }

@@ -1,0 +1,41 @@
+<table class="table table-bordered">
+		  <thead>
+			<tr>
+			  <td align="center">D R A M S  D e t a i l s</td>
+			  <td width="275" align="center">Action</td>
+			</tr>
+		  </thead>
+		  <tbody>
+			 <tr  *ngFor="let dram of drams" >
+			 	<td>
+  			 	 <span *ngIf="dram.rating == 4.5 " class="	table-success"></span>
+  			 	  <span *ngIf="dram.rating  < 4" class="ac"></span>
+			 		
+			 	 
+			 	<ng-template #t let-fill="fill">
+				  <span *ngIf="fill === 100" class="star full">&hearts;</span>
+				  <span *ngIf="fill === 0" class="star">&hearts;</span>
+				  <span *ngIf="fill < 100 && fill > 0" class="star">
+				    <span class="half" [style.width.%]="fill">&hearts;</span>&hearts;
+				  </span>
+				</ng-template>
+
+				<p>Dram Id: {{dram.dramId}}</p>
+				<p>Name: {{dram.name}}</p>
+				<p>Pic/Rating: <img src="{{dram.picture}}"> {{dram.rating}}
+							
+				<ngb-rating [(rate)]="dram.rating" [starTemplate]="t" [readonly]="true" max="5"></ngb-rating>	
+				</p>
+				<p>Date Added: {{dram.dateAdd}}</p>
+				<p>Tasting Notes: {{dram.tastingNote}}</p>
+				<p>Price: ${{dram.price}}</p>
+				
+				</td>
+				<td width="275"> 
+					<a class="btn btn-info" routerLink="/showDrm/{{dram._id}}">Detail</a> 
+					<a class="btn btn-success"  routerLink="/editDrm/{{dram._id}}">Edit</a>
+					<a class="btn btn-danger" (click)="deleteDram(dram._id)">Delete</a>
+				</td>
+			 </tr>
+		  </tbody>
+</table>
